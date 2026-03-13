@@ -111,6 +111,7 @@ This is an educational repository. If you find issues or have suggestions:
 - 🌐 Portfolio: [sarvarnadaf.com](https://sarvarnadaf.com)
 - 💻 GitHub: [@simplynadaf](https://github.com/simplynadaf)
 - 📝 dev.to: [@sarvar_04](https://dev.to/sarvar_04)
+- 💼 LinkedIn: [sarvar04](https://www.linkedin.com/in/sarvar04/)
 - 📧 Email: simplynadaf@gmail.com
 
 ## 📄 License
