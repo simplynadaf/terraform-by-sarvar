@@ -96,19 +96,6 @@ terraform-by-sarvar/
 └── PROJECT_SETUP.md   # Project documentation
 ```
 
-### 📦 Article Files Storage
-
-All article files are also available in S3 bucket: **`terraform-by-sarvar`**
-
-Download articles using AWS CLI:
-```bash
-# List all articles
-aws s3 ls s3://terraform-by-sarvar/articles/
-
-# Download specific article
-aws s3 cp s3://terraform-by-sarvar/articles/02-installation/ . --recursive
-```
-
 ## 🛠️ Technologies Used
 
 <div align="center">
