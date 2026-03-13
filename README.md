@@ -78,9 +78,23 @@ terraform-by-sarvar/
 
 ## 🛠️ Technologies Used
 
-- **Terraform** - Infrastructure as Code tool
-- **AWS** - Cloud provider
+- **Terraform** - Infrastructure as Code tool (v1.14+)
+- **AWS** - Cloud provider (us-east-1 region)
 - **GitHub Actions** - CI/CD (covered in later articles)
+
+## 🔄 Development Workflow
+
+All code in this repository is:
+1. **Tested** on a live AWS environment before publishing
+2. **Verified** to work with the specified Terraform and AWS provider versions
+3. **Documented** with detailed explanations in corresponding articles
+4. **Production-ready** with best practices applied
+
+### Repository Management
+- **Full Access**: Push/pull access configured for continuous updates
+- **Testing Environment**: Ubuntu 22.04 LTS with Terraform v1.14.4
+- **AWS Region**: us-east-1 (North Virginia)
+- **Version Control**: All tested code is committed and pushed to this repository
 
 ## 📝 Contributing
 

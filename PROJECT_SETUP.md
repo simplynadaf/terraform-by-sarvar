@@ -14,16 +14,24 @@ Creating a comprehensive Terraform tutorial series for dev.to targeting both fre
 - **Region**: us-east-1 (North Virginia)
 
 ## Workflow Process
-1. Create Terraform code for the topic
-2. Test on terraform server (172.31.17.247)
+1. Create Terraform code for the topic in `Terraform Series/` folder
+2. Test on current server (/home/ubuntu/Terraform Series)
 3. Verify successful execution
-4. Write detailed article with:
+4. Once testing is complete, keep all source code in the Terraform Series folder
+5. Push tested code to GitHub repository (terraform-by-sarvar)
+6. Write detailed article with:
    - Concept explanation
    - Code with line-by-line explanation
    - User-specific changes needed
    - Execution commands
    - Placeholders for screenshots
-5. User adds screenshots and publishes to dev.to
+7. User adds screenshots and publishes to dev.to
+
+## GitHub Repository
+- **Repository**: https://github.com/simplynadaf/terraform-by-sarvar
+- **Access**: Full push/pull access configured
+- **SSH**: Authenticated as simplynadaf
+- **Workflow**: Test locally → Push to GitHub → Write article → Publish
 
 ## Series Structure
 
@@ -111,22 +119,28 @@ Creating a comprehensive Terraform tutorial series for dev.to targeting both fre
 ## Prerequisites to Confirm
 
 ### Server Setup
-- [x] Confirm test.pem file location - **Local, copy to Terraform Series folder**
-- [x] Confirm SSH username - **ec2-user (Amazon Linux)**
-- [x] Verify Terraform is installed on server - **NO, needs installation (Article 2)**
-- [x] Verify AWS CLI is installed on server - **Needs verification/installation**
-- [x] Confirm AWS credentials are configured on server - **NO, terraform user with admin access needs configuration**
+- [x] Confirm test environment - **Current server: Ubuntu 22.04 LTS**
+- [x] Verify Terraform is installed - **YES, v1.14.4**
+- [x] Verify AWS CLI is installed - **YES, v2.28.14**
+- [x] Confirm AWS credentials are configured - **YES, IAM user: server**
 - [x] Confirm AWS region to use - **us-east-1 (North Virginia)**
 
+### GitHub Setup
+- [x] Git installed - **YES, v2.34.1**
+- [x] Git user configured - **simplynadaf (simplynadaf@gmail.com)**
+- [x] GitHub SSH access - **Authenticated and working**
+- [x] Repository created - **terraform-by-sarvar (pending manual creation)**
+- [x] Push/Pull access - **Full access available**
+
 ### AWS Account
-- [x] Confirm AWS account access - **Yes, terraform user with admin access**
-- [ ] Confirm IAM permissions available
+- [x] Confirm AWS account access - **Yes, Account: 175662053988**
+- [x] Confirm IAM permissions available - **IAM user: server with access**
 - [x] Confirm budget/cost limits for testing - **No specific restrictions for now**
 - [ ] Confirm resource naming convention (prefix/tags)
 
 ### Development Setup
-- [ ] Confirm if we need .gitignore for sensitive files
-- [x] Confirm if code should be pushed to GitHub repo - **YES, will create repo**
+- [x] .gitignore created - **YES, includes sensitive files**
+- [x] GitHub repo planned - **terraform-by-sarvar**
 - [ ] Confirm dev.to account setup for series - **Username TBD**
 
 ## Directory Structure
