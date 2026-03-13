@@ -4,7 +4,9 @@ Complete Terraform tutorial series from basics to advanced concepts.
 
 ## 📚 Series Overview
 
-This repository contains code examples and resources for the **Terraform By Sarvar** tutorial series published on dev.to.
+This repository contains code examples and resources for the **Terraform By Sarvar** tutorial series.
+
+📖 **Read the series on dev.to:** https://dev.to/sarvar_04/series/36958
 
 ### What You'll Learn
 - Infrastructure as Code (IaC) fundamentals
@@ -106,9 +108,10 @@ This is an educational repository. If you find issues or have suggestions:
 ## 👨‍💻 Author
 
 **Sarvar Nadaf**
-- GitHub: [@simplynadaf](https://github.com/simplynadaf)
-- Email: simplynadaf@gmail.com
-- dev.to: Coming Soon
+- 🌐 Portfolio: [sarvarnadaf.com](https://sarvarnadaf.com)
+- 💻 GitHub: [@simplynadaf](https://github.com/simplynadaf)
+- 📝 dev.to: [@sarvar_04](https://dev.to/sarvar_04)
+- 📧 Email: simplynadaf@gmail.com
 
 ## 📄 License
 
@@ -117,9 +120,9 @@ This project is open source and available for educational purposes.
 ## ⭐ Support
 
 If you find this series helpful:
-- Star this repository
-- Follow the series on dev.to
-- Share with others learning Terraform
+- ⭐ Star this repository
+- 📖 Follow the series: https://dev.to/sarvar_04/series/36958
+- 🔗 Share with others learning Terraform
 
 ---
 
