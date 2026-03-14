@@ -17,7 +17,9 @@
 
 ## 📚 Series Overview
 
-This repository contains code examples and resources for the **Terraform By Sarvar** tutorial series.
+This repository contains **ONLY Terraform code examples** for the **Terraform By Sarvar** tutorial series.
+
+> **⚠️ IMPORTANT:** This repo contains only `.tf` files and infrastructure code. Articles are published on dev.to, not stored here.
 
 📖 **Read the series on dev.to:** https://dev.to/sarvar_04/series/36958
 
@@ -87,13 +89,18 @@ terraform apply
 
 ```
 terraform-by-sarvar/
-├── articles/           # Article-specific code and content
+├── articles/           # Terraform code organized by article
 │   ├── 01-introduction/
+│   │   └── terraform/  # Only .tf files
 │   ├── 02-installation/
+│   │   └── terraform/  # Only .tf files
 │   ├── 03-first-resource/
+│   │   └── terraform/  # Only .tf files (main.tf)
 │   └── ...
-├── shared-resources/   # Shared configurations and scripts
-└── PROJECT_SETUP.md   # Project documentation
+├── shared-resources/   # Shared Terraform modules
+└── README.md
+
+Note: Articles (.md files) are NOT stored here - they're published on dev.to
 ```
 
 ## 🛠️ Technologies Used

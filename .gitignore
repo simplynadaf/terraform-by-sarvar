@@ -11,6 +11,16 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+# Article content (published on dev.to, not stored in repo)
+*.md
+!README.md
+APPROACH.md
+TESTING_PLAN.md
+WORKFLOW.md
+PROJECT_SETUP.md
+SERIES_PLAN.md
+ARTICLE_URLS.md
+
 # Sensitive files
 *.pem
 *.key
