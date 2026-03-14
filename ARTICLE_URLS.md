@@ -4,9 +4,9 @@
 
 ### Article 1: Introduction to Terraform & IaC
 - **Title:** Why Every Developer Should Learn Terraform in 2026 (And How to Start)
-- **Status:** ✅ Finalized - Ready to Publish
-- **dev.to URL:** [To be added after publishing]
-- **Published Date:** [To be added]
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/sarvar_04/why-every-developer-should-learn-terraform-in-2026-and-how-to-start--4fk0
+- **Published Date:** 2026-03-14
 - **Local Path:** `articles/01-introduction/article.md`
 - **S3 Path:** `s3://terraform-by-sarvar/articles/01-introduction/article.md`
 - **Word Count:** ~3,500 words
@@ -14,9 +14,9 @@
 
 ### Article 2: Installation & Setup
 - **Title:** Installing Terraform and Setting Up Your AWS Environment (Step-by-Step Guide)
-- **Status:** ✅ Finalized - Ready to Publish
-- **dev.to URL:** [To be added after publishing]
-- **Published Date:** [To be added]
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/sarvar_04/installing-terraform-and-setting-up-your-environment-1j9b
+- **Published Date:** 2026-03-14
 - **Local Path:** `articles/02-installation/article.md`
 - **S3 Path:** `s3://terraform-by-sarvar/articles/02-installation/article.md`
 - **Word Count:** ~5,000 words
