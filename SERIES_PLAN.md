@@ -570,7 +570,129 @@ Build complete infrastructure:
 
 ---
 
-## 🎯 Learning Path Summary
+## 🎓 Terraform Theory Coverage Map
+
+### ✅ Already Covered (Articles 1-5):
+- **Basics:** HCL syntax, terraform/provider/resource blocks
+- **Workflow:** init, plan, apply, destroy
+- **State:** What it is, state commands, importing, drift detection
+- **Variables:** All types (string, number, bool, list, map), validation, tfvars
+- **Outputs:** Basic, map, list, sensitive
+- **Meta-arguments:** count (with ternary conditionals)
+
+### 📝 To Be Covered (Articles 6-20):
+
+**Article 6 (VPC):**
+- ✅ Resource dependencies (implicit)
+- ✅ Data sources (vs resources)
+- ✅ Resource references
+
+**Article 7 (EC2 + ALB):**
+- ✅ depends_on (explicit dependencies)
+- ✅ User data and provisioning basics
+
+**Article 8 (RDS):**
+- ✅ Sensitive data handling
+- ✅ AWS Secrets Manager integration
+
+**Article 9 (IAM):**
+- ✅ Policy documents
+- ✅ jsonencode function
+- ✅ Resource-based policies
+
+**Article 11 (Modules):**
+- ✅ Module creation
+- ✅ Module inputs/outputs
+- ✅ Module versioning
+- ✅ Module composition
+- ✅ Project structure
+
+**Article 12 (EKS):**
+- ✅ Complex multi-resource dependencies
+- ✅ ConfigMaps and Kubernetes provider
+
+**Article 13 (Advanced Features):**
+- ✅ **for_each** (vs count)
+- ✅ **Locals** (local values)
+- ✅ **Dynamic blocks**
+- ✅ **Lifecycle rules** (create_before_destroy, prevent_destroy, ignore_changes)
+- ✅ **Null resources**
+- ✅ **Terraform console**
+
+**Article 14 (Functions):**
+- ✅ **String functions** (format, join, split, replace, regex)
+- ✅ **Collection functions** (merge, concat, flatten, distinct, keys, values)
+- ✅ **Numeric functions** (min, max, ceil, floor)
+- ✅ **Type conversion** (tostring, tonumber, tolist, tomap)
+- ✅ **Conditional expressions** (ternary, coalesce)
+- ✅ **For expressions**
+- ✅ **Splat expressions** ([*])
+
+**Article 15 (CloudWatch):**
+- ✅ Resource monitoring patterns
+- ✅ Alarm configurations
+
+**Article 16 (Remote State):**
+- ✅ **S3 backend configuration**
+- ✅ **State locking** (DynamoDB)
+- ✅ **State encryption**
+- ✅ **Backend migration**
+- ✅ **State versioning**
+
+**Article 17 (Workspaces):**
+- ✅ **Terraform workspaces**
+- ✅ **Workspace-specific configs**
+- ✅ **When to use vs separate state files**
+
+**Article 18 (Testing):**
+- ✅ **terraform validate**
+- ✅ **terraform fmt**
+- ✅ **terraform plan -detailed-exitcode**
+- ✅ **Policy as Code** (Sentinel/OPA basics)
+- ✅ **Pre-commit hooks**
+- ✅ **Terratest** (introduction)
+
+**Article 19 (CI/CD):**
+- ✅ **Automated workflows**
+- ✅ **Approval gates**
+- ✅ **Secrets in CI/CD**
+
+**Article 20 (Real Project):**
+- ✅ **All concepts combined**
+- ✅ **Production best practices**
+- ✅ **Security hardening**
+- ✅ **Cost optimization**
+- ✅ **Disaster recovery**
+
+### 🔧 Additional Terraform Commands Covered:
+- ✅ terraform init (Article 3)
+- ✅ terraform plan (Article 3)
+- ✅ terraform apply (Article 3)
+- ✅ terraform destroy (Article 3)
+- ✅ terraform state list/show/mv/rm (Article 4)
+- ✅ terraform import (Article 4)
+- ✅ terraform output (Article 5)
+- terraform validate (Article 18)
+- terraform fmt (Article 18)
+- terraform console (Article 13)
+- terraform graph (Article 6)
+- terraform refresh (Article 4)
+
+### 📊 Concept Coverage Summary:
+
+**Core Concepts:** 100% covered across 20 articles
+- Syntax, workflow, state, variables, outputs ✅
+- Dependencies, data sources, modules ✅
+- Advanced meta-arguments (count, for_each) ✅
+- Functions and expressions ✅
+- Remote state and workspaces ✅
+
+**Production Skills:** 100% covered
+- Testing, validation, CI/CD ✅
+- Security, monitoring, best practices ✅
+- Team collaboration ✅
+
+---
 
 ### Foundation → Real Infrastructure → Advanced Features → Production
 
