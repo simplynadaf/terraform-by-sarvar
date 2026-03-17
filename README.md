@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![dev.to](https://img.shields.io/badge/dev.to-Series-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/sarvar_04/series/36958)
 
-[📖 Read the Series](https://dev.to/sarvar_04/series/36958) • [🌐 Portfolio](https://sarvarnadaf.com) • [💼 LinkedIn](https://www.linkedin.com/in/sarvar04/)
+[📖 Read the Series](https://dev.to/sarvar_04/series/36963) • [🌐 Portfolio](https://sarvarnadaf.com) • [💼 LinkedIn](https://www.linkedin.com/in/sarvar04/)
 
 </div>
 
@@ -21,7 +21,7 @@ This repository contains **ONLY Terraform code examples** for the **Terraform By
 
 > **⚠️ IMPORTANT:** This repo contains only `.tf` files and infrastructure code. Articles are published on dev.to, not stored here.
 
-📖 **Read the series on dev.to:** https://dev.to/sarvar_04/series/36958
+📖 **Read the series on dev.to:** https://dev.to/sarvar_04/series/36963
 
 ### 🎯 What You'll Learn
 - ✅ Infrastructure as Code (IaC) fundamentals
@@ -31,15 +31,16 @@ This repository contains **ONLY Terraform code examples** for the **Terraform By
 - ✅ Production-ready configurations
 
 ### 📊 Series Progress
-![Progress](https://img.shields.io/badge/Articles-2%2F15-blue?style=flat-square)
+![Progress](https://img.shields.io/badge/Articles-3%2F15-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ## 📖 Article Series
 
 ### 📘 Foundation
-1. [Introduction to Terraform & IaC](articles/01-introduction/) - 🔜 Coming Soon
-2. [Installation & Setup](articles/02-installation/) - ✅ Complete
-3. [Your First AWS Resource](articles/03-first-resource/) - 🔜 Coming Soon
+1. [Introduction to Terraform & IaC](https://dev.to/aws-builders/why-every-developer-should-learn-terraform-in-2026-and-how-to-start--4fk0) - ✅ Published
+2. [Installation & Setup](https://dev.to/aws-builders/installing-terraform-and-setting-up-your-environment-1j9b) - ✅ Published
+3. [Your First AWS Resource](https://dev.to/aws-builders/your-first-infrastructure-as-code-in-four-commands-46ep) - ✅ Published
+4. [Understanding Terraform State](articles/04-state-management/) - ✅ Complete (Testing Done)
 
 ### 📗 Intermediate
 4. Understanding Terraform State - 🔜 Coming Soon
@@ -165,7 +166,7 @@ This project is open source and available for educational purposes.
 
 If you find this series helpful:
 
-⭐ **Star this repository** • 📖 **[Follow the series](https://dev.to/sarvar_04/series/36958)** • 🔗 **Share with others**
+⭐ **Star this repository** • 📖 **[Follow the series](https://dev.to/sarvar_04/series/36963)** • 🔗 **Share with others**
 
 [![GitHub stars](https://img.shields.io/github/stars/simplynadaf/terraform-by-sarvar?style=social)](https://github.com/simplynadaf/terraform-by-sarvar)
 [![GitHub forks](https://img.shields.io/github/forks/simplynadaf/terraform-by-sarvar?style=social)](https://github.com/simplynadaf/terraform-by-sarvar/fork)
