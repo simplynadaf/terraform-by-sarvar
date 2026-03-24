@@ -118,8 +118,8 @@ Team workflows, best practices, real-world projects
 
 ## 🏗️ PHASE 2: REAL INFRASTRUCTURE (Articles 6-10)
 
-### 📝 Article 6: Building a VPC - AWS Networking with Terraform
-**Status:** Planned  
+### ✅ Article 6: Building Your First AWS VPC with Terraform (The Right Way)
+**Status:** ✅ Complete (Tested, Pushed to GitHub & S3)  
 **Focus:** Networking fundamentals
 
 **Topics:**
@@ -146,7 +146,7 @@ Team workflows, best practices, real-world projects
 
 ---
 
-### 📝 Article 7: Deploying EC2 Instances and Load Balancers
+### 📝 Article 7: Deploy Web Servers with Terraform: EC2 + Load Balancer Tutorial
 **Status:** Planned  
 **Focus:** Compute and load balancing
 
@@ -174,7 +174,7 @@ Team workflows, best practices, real-world projects
 
 ---
 
-### 📝 Article 8: RDS Database and Secrets Management
+### 📝 Article 8: Secure Database Deployment: RDS + Secrets Manager with Terraform
 **Status:** Planned  
 **Focus:** Stateful services and security
 
@@ -201,7 +201,7 @@ Team workflows, best practices, real-world projects
 
 ---
 
-### 📝 Article 9: IAM Roles, Policies, and Security
+### 📝 Article 9: AWS IAM Roles with Terraform: Security Best Practices
 **Status:** Planned  
 **Focus:** Security and permissions
 
@@ -228,7 +228,7 @@ Team workflows, best practices, real-world projects
 
 ---
 
-### 📝 Article 10: Lambda Functions and Serverless
+### 📝 Article 10: Going Serverless: Deploy AWS Lambda Functions with Terraform
 **Status:** Planned  
 **Focus:** Serverless compute
 
