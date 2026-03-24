@@ -29,12 +29,18 @@
 - **Word Count:** ~4,000 words
 - **Reading Time:** 15-20 minutes
 
+### Article 4: Understanding Terraform State
+- **Title:** Terraform State: The One File You Can't Afford to Lose
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/aws-builders/terraform-state-the-one-file-you-cant-afford-to-lose-33l4
+- **Published Date:** 2026-03-21
+- **Local Path:** `articles/04-state-management/article.md`
+- **Word Count:** ~4,500 words
+- **Reading Time:** 15-20 minutes
+
 ---
 
 ## Upcoming Articles
-
-### Article 4: Understanding Terraform State
-- **Status:** 🔜 Not Started
 
 ### Article 5: Variables and Outputs
 - **Status:** 🔜 Not Started
