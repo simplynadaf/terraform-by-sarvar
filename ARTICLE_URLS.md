@@ -38,11 +38,20 @@
 - **Word Count:** ~4,500 words
 - **Reading Time:** 15-20 minutes
 
+### Article 5: Variables and Outputs
+- **Title:** Terraform Variables and Outputs: Making Your Infrastructure Flexible
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/aws-builders/terraform-variables-and-outputs-making-your-infrastructure-flexible-3ebc
+- **Published Date:** 2026-04-08
+- **Local Path:** `articles/05-variables-outputs/article.md`
+- **Word Count:** ~5,000 words
+- **Reading Time:** 15-20 minutes
+
 ---
 
 ## Upcoming Articles
 
-### Article 5: Variables and Outputs
+### Article 6: Building a VPC from Scratch
 - **Status:** 🔜 Not Started
 
 ### Article 6: Building a VPC from Scratch
