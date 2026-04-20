@@ -31,7 +31,7 @@ This repository contains **ONLY Terraform code examples** for the **Terraform By
 - ✅ Production-ready configurations
 
 ### 📊 Series Progress
-![Progress](https://img.shields.io/badge/Articles-3%2F15-blue?style=flat-square)
+![Progress](https://img.shields.io/badge/Articles-6%2F15-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ## 📖 Article Series
@@ -40,12 +40,11 @@ This repository contains **ONLY Terraform code examples** for the **Terraform By
 1. [Introduction to Terraform & IaC](https://dev.to/aws-builders/why-every-developer-should-learn-terraform-in-2026-and-how-to-start--4fk0) - ✅ Published
 2. [Installation & Setup](https://dev.to/aws-builders/installing-terraform-and-setting-up-your-environment-1j9b) - ✅ Published
 3. [Your First AWS Resource](https://dev.to/aws-builders/your-first-infrastructure-as-code-in-four-commands-46ep) - ✅ Published
-4. [Understanding Terraform State](articles/04-state-management/) - ✅ Complete (Testing Done)
+4. [Understanding Terraform State](https://dev.to/aws-builders/terraform-state-the-one-file-you-cant-afford-to-lose-33l4) - ✅ Published
+5. [Variables and Outputs](https://dev.to/aws-builders/terraform-variables-and-outputs-making-your-infrastructure-flexible-3ebc) - ✅ Published
 
 ### 📗 Intermediate
-4. Understanding Terraform State - 🔜 Coming Soon
-5. Variables and Outputs - 🔜 Coming Soon
-6. Building a VPC from Scratch - 🔜 Coming Soon
+6. [Building a VPC from Scratch](https://dev.to/aws-builders/building-your-first-vpc-aws-networking-with-terraform-3h34) - ✅ Published
 7. Modules - Making Code Reusable - 🔜 Coming Soon
 8. Remote State Management - 🔜 Coming Soon
 
