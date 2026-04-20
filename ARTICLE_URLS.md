@@ -33,7 +33,7 @@
 - **Title:** Terraform State: The One File You Can't Afford to Lose
 - **Status:** ✅ Published
 - **dev.to URL:** https://dev.to/aws-builders/terraform-state-the-one-file-you-cant-afford-to-lose-33l4
-- **Published Date:** 2026-03-21
+- **Published Date:** 2026-04-20
 - **Local Path:** `articles/04-state-management/article.md`
 - **Word Count:** ~4,500 words
 - **Reading Time:** 15-20 minutes
@@ -47,15 +47,18 @@
 - **Word Count:** ~5,000 words
 - **Reading Time:** 15-20 minutes
 
+### Article 6: Building a VPC from Scratch
+- **Title:** Building Your First VPC: AWS Networking with Terraform
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/aws-builders/building-your-first-vpc-aws-networking-with-terraform-3h34
+- **Published Date:** 2026-04-20
+- **Local Path:** `articles/06-vpc-networking/article.md`
+- **Word Count:** ~6,000 words
+- **Reading Time:** 20-25 minutes
+
 ---
 
 ## Upcoming Articles
-
-### Article 6: Building a VPC from Scratch
-- **Status:** 🔜 Not Started
-
-### Article 6: Building a VPC from Scratch
-- **Status:** 🔜 Not Started
 
 ### Article 7: Modules - Making Code Reusable
 - **Status:** 🔜 Not Started
