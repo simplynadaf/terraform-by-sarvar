@@ -195,60 +195,15 @@ resource "aws_instance" "web" {
 
   vpc_security_group_ids = [aws_security_group.instance.id]
 
-  user_data = <<-EOF
-              #!/bin/bash
-              yum update -y
-              yum install -y httpd
-              systemctl start httpd
-              systemctl enable httpd
-              
-              # Get instance metadata
-              INSTANCE_ID=$(ec2-metadata --instance-id | cut -d " " -f 2)
-              AVAILABILITY_ZONE=$(ec2-metadata --availability-zone | cut -d " " -f 2)
-              
-              # Create custom index page
-              cat > /var/www/html/index.html <<HTML
-              <!DOCTYPE html>
-              <html>
-              <head>
-                  <title>Terraform Web Server</title>
-                  <style>
-                      body {
-                          font-family: Arial, sans-serif;
-                          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                          color: white;
-                          display: flex;
-                          justify-content: center;
-                          align-items: center;
-                          height: 100vh;
-                          margin: 0;
-                      }
-                      .container {
-                          text-align: center;
-                          background: rgba(255, 255, 255, 0.1);
-                          padding: 50px;
-                          border-radius: 20px;
-                          backdrop-filter: blur(10px);
-                      }
-                      h1 { font-size: 3em; margin: 0; }
-                      p { font-size: 1.5em; }
-                      .info { margin-top: 30px; font-size: 1.2em; }
-                  </style>
-              </head>
-              <body>
-                  <div class="container">
-                      <h1>🚀 Terraform Web Server</h1>
-                      <p>Deployed with Infrastructure as Code</p>
-                      <div class="info">
-                          <p><strong>Instance ID:</strong> $INSTANCE_ID</p>
-                          <p><strong>Availability Zone:</strong> $AVAILABILITY_ZONE</p>
-                          <p><strong>Server:</strong> ${count.index + 1}</p>
-                      </div>
-                  </div>
-              </body>
-              </html>
-HTML
-              EOF
+  user_data = base64encode(<<-EOF
+    #!/bin/bash
+    dnf update -y
+    dnf install -y httpd
+    systemctl start httpd
+    systemctl enable httpd
+    echo "<h1>Terraform Web Server - Instance: $(ec2-metadata --instance-id | cut -d' ' -f2)</h1><p>AZ: $(ec2-metadata --availability-zone | cut -d' ' -f2)</p>" > /var/www/html/index.html
+    EOF
+  )
 
   tags = {
     Name        = "${var.project_name}-web-${count.index + 1}"
