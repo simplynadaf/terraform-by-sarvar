@@ -31,8 +31,8 @@ This repository contains **ONLY Terraform code examples** for the **Terraform By
 - ✅ Production-ready configurations
 
 ### 📊 Series Progress
-![Progress](https://img.shields.io/badge/Articles-9%2F10-blue?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Almost%20Complete-success?style=flat-square)
+![Progress](https://img.shields.io/badge/Articles-7%2F10-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ## 📖 Article Series
 
@@ -46,8 +46,8 @@ This repository contains **ONLY Terraform code examples** for the **Terraform By
 ### 📗 Real Infrastructure (Articles 6-10)
 6. [Building a VPC from Scratch](https://dev.to/aws-builders/building-your-first-vpc-aws-networking-with-terraform-3h34) - ✅ Published
 7. [EC2 + Application Load Balancer](https://dev.to/aws-builders/deploy-web-servers-with-terraform-ec2-load-balancer-tutorial-3nh9) - ✅ Published
-8. [RDS + Secrets Manager](https://dev.to/aws-builders/secure-database-deployment-rds-secrets-manager-with-terraform-4oc7) - ✅ Published
-9. [IAM Roles and Security](https://dev.to/aws-builders/aws-iam-roles-with-terraform-security-best-practices-2h8l) - ✅ Published
+8. RDS + Secrets Manager - 🔜 Coming Soon
+9. IAM Roles and Security - 🔜 Coming Soon
 10. Lambda Serverless - 🔜 Coming Soon
 
 ## 🚀 Getting Started
