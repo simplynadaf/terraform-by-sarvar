@@ -47,8 +47,8 @@ This repository contains **ONLY Terraform code examples** for the **Terraform By
 6. [Building a VPC from Scratch](https://dev.to/aws-builders/building-your-first-vpc-aws-networking-with-terraform-3h34) - ✅ Published
 7. [EC2 + Application Load Balancer](https://dev.to/aws-builders/deploy-web-servers-with-terraform-ec2-load-balancer-tutorial-3nh9) - ✅ Published
 8. [Lambda Serverless](https://dev.to/aws-builders/going-serverless-aws-lambda-functions-ii0) - ✅ Published
-9. RDS + Secrets Manager - 🔜 Coming Soon
-10. IAM Roles and Security - 🔜 Coming Soon
+9. IAM Roles and Security - 🔜 Coming Soon
+10. RDS + Secrets Manager - 🔜 Coming Soon
 
 ## 🚀 Getting Started
 

@@ -72,10 +72,10 @@
 
 ## Upcoming Articles
 
-### Article 9: RDS + Secrets Manager
+### Article 9: IAM Roles and Security
 - **Status:** 🔜 Not Started
 
-### Article 10: IAM Roles and Security
+### Article 10: RDS + Secrets Manager
 - **Status:** 🔜 Not Started
 
 ### Article 11: Terraform Functions & Expressions
