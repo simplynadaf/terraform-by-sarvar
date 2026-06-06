@@ -56,20 +56,26 @@
 - **Word Count:** ~6,000 words
 - **Reading Time:** 20-25 minutes
 
+### Article 7: EC2 + Application Load Balancer
+- **Title:** Deploy Web Servers with Terraform: EC2 Load Balancer Tutorial
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/aws-builders/deploy-web-servers-with-terraform-ec2-load-balancer-tutorial-3nh9
+- **Local Path:** `articles/07-ec2-load-balancer/article.md`
+
+### Article 8: Lambda Serverless
+- **Title:** Going Serverless: Deploy AWS Lambda Functions with Terraform
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/aws-builders/going-serverless-aws-lambda-functions-ii0
+- **Local Path:** `articles/08-lambda-serverless/article.md`
+
 ---
 
 ## Upcoming Articles
 
-### Article 7: Modules - Making Code Reusable
+### Article 9: RDS + Secrets Manager
 - **Status:** 🔜 Not Started
 
-### Article 8: Remote State Management
-- **Status:** 🔜 Not Started
-
-### Article 9: Multi-Environment Setup
-- **Status:** 🔜 Not Started
-
-### Article 10: Advanced Resource Management
+### Article 10: IAM Roles and Security
 - **Status:** 🔜 Not Started
 
 ### Article 11: Terraform Functions & Expressions
