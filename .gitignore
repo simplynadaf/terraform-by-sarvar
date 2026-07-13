@@ -1,7 +1,6 @@
 # Terraform files
 *.tfstate
 *.tfstate.*
-*.tfvars
 .terraform/
 .terraform.lock.hcl
 crash.log
@@ -11,14 +10,26 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+# tfvars are normally ignored, but educational examples in articles/ are tracked intentionally
+# (e.g., articles/05-variables-outputs/terraform/*.tfvars)
+*.tfvars
+
 # Article content (published on dev.to, not stored in repo)
-*.md
-!README.md
-APPROACH.md
-TESTING_PLAN.md
+# Only README.md files are tracked for navigation
+articles/*/article.md
+articles/*/article-original.md
+articles/*/APPROACH.md
+articles/*/TESTING_RESULTS.md
+articles/*/TESTING_STEPS.md
+articles/*/TESTING_STATUS.md
+articles/*/SUMMARY.md
+
+# Root-level internal docs (not for public repo)
+ARTICLE_STYLE_GUIDE.md
+TESTING_GUIDE.md
 WORKFLOW.md
 PROJECT_SETUP.md
-SERIES_PLAN.md
+FUTURE_SERIES_IDEAS.md
 
 # Sensitive files
 *.pem
