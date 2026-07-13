@@ -73,10 +73,18 @@
 ## Upcoming Articles
 
 ### Article 9: IAM Roles and Security
-- **Status:** 🔜 Not Started
+- **Title:** AWS IAM Roles with Terraform: Security Best Practices
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/aws-builders/aws-iam-roles-with-terraform-security-best-practices-2icj
+- **Published Date:** 2026-07-13
+- **Local Path:** `articles/09-iam-security/article.md`
 
 ### Article 10: RDS + Secrets Manager
-- **Status:** 🔜 Not Started
+- **Title:** Secure Database Deployment: RDS + Secrets Manager
+- **Status:** ✅ Published
+- **dev.to URL:** https://dev.to/aws-builders/secure-database-deployment-rds-secrets-manager-13eb
+- **Published Date:** 2026-07-13
+- **Local Path:** `articles/10-rds-secrets/article.md`
 
 ### Article 11: Terraform Functions & Expressions
 - **Status:** 🔜 Not Started

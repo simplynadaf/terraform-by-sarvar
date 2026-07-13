@@ -23,7 +23,8 @@ data "aws_ami" "amazon_linux" {
 
 # S3 Bucket
 resource "aws_s3_bucket" "app_bucket" {
-  bucket = var.s3_bucket_name
+  bucket        = var.s3_bucket_name
+  force_destroy = true
 
   tags = {
     Name        = var.s3_bucket_name
